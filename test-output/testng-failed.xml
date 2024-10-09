@@ -6,8 +6,9 @@
       <class name="com.entrata.testcases.logiToEntrata">
         <methods>
           <include name="verifySolutionDropdown"/>
-          <include name="verifypageTitle"/>
+          <include name="residentLoginPage1"/>
           <include name="closetheBrowser"/>
+          <include name="verifypageTitle"/>
           <include name="setUpsuite"/>
           <include name="loginTestCase"/>
           <include name="startTheBrowser"/>

@@ -1,33 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-01T10:17:12 IST" name="Default suite" finished-at="2024-10-01T10:18:00 IST" duration-ms="47872">
+  <suite started-at="2024-10-09T10:12:18 IST" name="Default suite" finished-at="2024-10-09T10:12:58 IST" duration-ms="40105">
     <groups>
     </groups>
-    <test started-at="2024-10-01T10:17:12 IST" name="Default test" finished-at="2024-10-01T10:18:00 IST" duration-ms="47872">
+    <test started-at="2024-10-09T10:12:18 IST" name="Default test" finished-at="2024-10-09T10:12:58 IST" duration-ms="40105">
       <class name="com.entrata.testcases.logiToEntrata">
-        <test-method is-config="true" signature="setUpsuite()[pri:0, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:12 IST" name="setUpsuite" finished-at="2024-10-01T10:17:12 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="setUpsuite()[pri:0, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:18 IST" name="setUpsuite" finished-at="2024-10-09T10:12:18 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpsuite -->
-        <test-method is-config="true" signature="startTheBrowser()[pri:0, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:12 IST" name="startTheBrowser" finished-at="2024-10-01T10:17:43 IST" duration-ms="31174" status="PASS">
+        <test-method is-config="true" signature="startTheBrowser()[pri:0, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:18 IST" name="startTheBrowser" finished-at="2024-10-09T10:12:24 IST" duration-ms="5556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTheBrowser -->
-        <test-method signature="loginTestCase()[pri:1, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:43 IST" name="loginTestCase" finished-at="2024-10-01T10:17:59 IST" duration-ms="15891" status="PASS">
+        <test-method signature="submitDemoForm()[pri:0, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:24 IST" name="submitDemoForm" finished-at="2024-10-09T10:12:27 IST" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitDemoForm -->
+        <test-method signature="loginTestCase()[pri:1, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:27 IST" name="loginTestCase" finished-at="2024-10-09T10:12:42 IST" duration-ms="14479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCase -->
-        <test-method signature="verifypageTitle()[pri:2, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:59 IST" name="verifypageTitle" finished-at="2024-10-01T10:17:59 IST" duration-ms="54" status="PASS">
+        <test-method signature="verifypageTitle()[pri:2, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:42 IST" name="verifypageTitle" finished-at="2024-10-09T10:12:42 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifypageTitle -->
-        <test-method signature="verifySolutionDropdown()[pri:3, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:59 IST" name="verifySolutionDropdown" finished-at="2024-10-01T10:17:59 IST" duration-ms="284" status="PASS">
+        <test-method signature="verifySolutionDropdown()[pri:3, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:42 IST" name="verifySolutionDropdown" finished-at="2024-10-09T10:12:42 IST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySolutionDropdown -->
-        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:com.entrata.testcases.logiToEntrata@3590fc5b]" started-at="2024-10-01T10:17:59 IST" name="closetheBrowser" finished-at="2024-10-01T10:18:00 IST" duration-ms="397" status="PASS">
+        <test-method signature="residentLoginPage1()[pri:4, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:42 IST" name="residentLoginPage1" finished-at="2024-10-09T10:12:58 IST" duration-ms="15571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- residentLoginPage1 -->
+        <test-method is-config="true" signature="closetheBrowser()[pri:0, instance:com.entrata.testcases.logiToEntrata@33d512c1]" started-at="2024-10-09T10:12:58 IST" name="closetheBrowser" finished-at="2024-10-09T10:12:58 IST" duration-ms="476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetheBrowser -->
